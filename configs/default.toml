@@ -1,0 +1,43 @@
+[project]
+name = "student-success-intervention"
+random_seed = 42
+
+[dataset]
+raw_dir = "data/raw"
+subject = "por"
+target = "G3"
+include_prior_grades = false
+pass_threshold = 10.0
+
+[features]
+generate_interactions = true
+interaction_pairs = [
+  "studytime*absences",
+  "studytime*failures",
+  "schoolsup*failures",
+  "internet*studytime",
+  "Medu*Fedu",
+]
+
+[modeling]
+candidate_models = ["linear_regression", "ridge", "lasso", "decision_tree", "mlp"]
+interpretable_models = ["linear_regression", "ridge", "lasso", "decision_tree"]
+test_size = 0.2
+cross_validation_folds = 5
+max_mlp_iter = 3000
+
+[simulation]
+target_grade = 10.0
+top_k = 5
+max_feature_changes = 2
+sample_size = 12
+
+[intervention]
+planner_mode = "rule_based"
+include_agent_prompt = false
+
+[outputs]
+reports_dir = "reports"
+figures_dir = "reports/figures"
+models_dir = "models"
+selected_model_path = "models/selected_early_warning_model.joblib"
