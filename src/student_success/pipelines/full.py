@@ -13,7 +13,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 from student_success.data.loaders import load_student_performance
 from student_success.features.engineering import InteractionSpec, parse_interaction_specs
-from student_success.interventions.planner import RuleBasedInterventionPlanner
+from student_success.interventions.agent import AgenticInterventionPlanner
 from student_success.models.training import (
     FittedModelResult,
     extract_feature_importance,
@@ -193,9 +193,7 @@ def run_simulation(config_path: str | Path) -> dict[str, Path]:
         top_k=config.simulation.top_k,
         max_feature_changes=config.simulation.max_feature_changes,
     )
-    planner = RuleBasedInterventionPlanner(
-        include_agent_prompt=config.intervention.include_agent_prompt
-    )
+    planner = AgenticInterventionPlanner()
 
     scenario_rows: list[dict[str, Any]] = []
     plan_blocks: list[str] = []
@@ -213,7 +211,7 @@ def run_simulation(config_path: str | Path) -> dict[str, Path]:
             pass_threshold=config.dataset.pass_threshold,
         )
         plan = planner.build_plan(prediction, scenarios)
-        plan_blocks.append(_format_plan_markdown(plan))
+        plan_blocks.append(_format_llm_plan_markdown(prediction.student_id, prediction.risk_band, plan))
 
         if not scenarios:
             scenario_rows.append(
@@ -423,11 +421,11 @@ def _risk_factors_from_scenarios(scenarios) -> list[str]:
     return factors or ["low predicted grade"]
 
 
-def _format_plan_markdown(plan) -> str:
+def _format_llm_plan_markdown(student_id: str, risk_band: str, plan) -> str:
     lines = [
-        f"## {plan.student_id}",
+        f"## {student_id}",
         "",
-        f"Risk band: **{plan.risk_band}**",
+        f"Risk band: **{risk_band}**",
         "",
         plan.summary,
         "",
@@ -435,7 +433,7 @@ def _format_plan_markdown(plan) -> str:
     ]
     for step in plan.recommended_steps:
         lines.append(
-            f"- **{step.title}** ({step.owner}): {step.reason} Success signal: {step.success_signal}."
+            f"- **{step.title}** ({step.owner}): {step.description}"
         )
     lines.extend(["", f"Monitoring: {plan.monitoring_note}"])
     return "\n".join(lines)
