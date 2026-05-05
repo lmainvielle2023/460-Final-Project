@@ -18,7 +18,7 @@ class LLMInterventionPlan(BaseModel):
     monitoring_note: str = Field(description="A short monitoring plan.")
 
 class AgenticInterventionPlanner:
-    def __init__(self, model_name: str = "gemini-2.5-flash"): 
+    def __init__(self, model_name: str = "gemini-3.1-flash-lite"): 
         
         self.llm = ChatGoogleGenerativeAI(model=model_name, temperature=0.2)
         self.structured_llm = self.llm.with_structured_output(LLMInterventionPlan)
