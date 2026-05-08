@@ -66,7 +66,7 @@ class AgenticInterventionPlanner:
 
         tools = [simulate_intervention]
         system_prompt = self.system_message.format(pass_threshold=pass_threshold)
-        agent_executor = create_react_agent(self.llm, tools, state_modifier=system_prompt)
+        agent_executor = create_react_agent(self.llm, tools, prompt=system_prompt)
         
         human_message = f"Student ID: {student_id}\nBase Grade: {base_prediction}\nBaseline Features: {base_features}"
         
@@ -74,5 +74,13 @@ class AgenticInterventionPlanner:
         result = agent_executor.invoke({"messages": [("human", human_message)]})
         
         # Force strict formatting of the output
-        final_message = result["messages"][-1].content
-        return self.structured_llm.invoke(final_message)
+        final_msg = result["messages"][-1]
+        if isinstance(final_msg.content, list):
+            text_content = " ".join(
+                str(c.get("text", "")) if isinstance(c, dict) else str(c) 
+                for c in final_msg.content
+            )
+        else:
+            text_content = str(final_msg.content)
+            
+        return self.structured_llm.invoke(text_content)

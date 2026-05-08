@@ -2,154 +2,148 @@
 
 Risk band: **high**
 
-The student is at high risk with a predicted grade of 4.93, primarily due to chronic absences and a lack of school support. The most effective path to improvement involves significantly reducing absences and actively engaging the student with school-provided academic assistance, which could raise the predicted grade by over 1.3 points.
+The student is at high risk due to chronic absenteeism and a lack of school-based support. Improving attendance to near-perfect levels and enrolling the student in formal school support programs is projected to increase their grade by over 1.3 points.
 
 Recommended steps:
-- **Investigate and Address Chronic Absences** (Counselor): Initiate contact with the student and family to understand the underlying causes of the 12 reported absences. Develop a personalized attendance improvement plan, connecting the family with relevant school or community resources (e.g., transportation, health services, family support programs).
-- **Implement Targeted Academic Support** (Teacher): Assess the student's specific academic needs and connect them with school-based support programs such as tutoring, after-school help, or peer mentoring. Ensure the support is tailored to their learning style and academic gaps.
-- **Establish Regular Check-ins for Engagement** (Counselor): Schedule weekly check-ins with the student to monitor their academic progress, attendance, and overall well-being. Use this time to address any emerging challenges and reinforce the importance of consistent school attendance and engagement with support services.
+- **Implement Attendance Intervention Plan** (Counselor): Conduct a meeting with the student and family to identify barriers to attendance and establish a daily check-in routine to ensure the student arrives on time.
+- **Enroll in School Support Services** (School Administrator): Formally assign the student to academic support programs or tutoring sessions to provide the necessary scaffolding for grade improvement.
 
-Monitoring: Monitor student attendance weekly and track engagement with school support programs. Review academic progress monthly to assess the effectiveness of interventions.
+Monitoring: Review attendance logs weekly and track progress in school support sessions bi-weekly to ensure the student remains on the projected improvement trajectory.
 
 ## student_0571
 
 Risk band: **high**
 
-The student is currently at high risk with a predicted grade of 5.45. The most impactful path to improvement involves significantly reducing absences and providing dedicated school support, which could raise the predicted grade by over a full point.
+The student is at high risk due to frequent absences and a lack of school-provided academic support. By eliminating absences and enrolling the student in formal school support programs, the predicted grade can improve by over one full point.
 
 Recommended steps:
-- **Proactively Address Absences** (Counselor): Initiate contact with the student's family to understand the underlying reasons for the 4 current absences. Develop a collaborative plan to improve attendance, emphasizing the importance of consistent presence for academic success.
-- **Implement Targeted School Support** (Teacher): Assess the student's specific academic needs and connect them with appropriate school support resources, such as peer tutoring, after-school help sessions, or individualized academic coaching, to ensure they receive 'yes' school support.
-- **Establish Regular Progress Check-ins** (Teacher): Schedule weekly brief check-ins with the student to monitor attendance, academic engagement, and the effectiveness of the implemented school support. Provide encouragement and address any emerging challenges promptly.
+- **Enroll in Academic Support Program** (School Counselor): Formally register the student for school-provided tutoring or academic intervention services to address learning gaps.
+- **Implement Attendance Recovery Plan** (Attendance Officer): Establish a daily check-in protocol to ensure the student arrives on time and identify barriers preventing consistent attendance.
 
-Monitoring: Monitor attendance weekly and academic performance bi-weekly. Re-evaluate the effectiveness of school support and attendance strategies in 4 weeks.
+Monitoring: Review attendance logs weekly and track progress in the academic support program through bi-weekly check-ins with the assigned tutor.
 
 ## student_0552
 
 Risk band: **high**
 
-This student is currently at high risk with a predicted grade of 5.51. The most impactful path to improvement involves providing school support and significantly reducing absences.
+The student is at high risk due to frequent absences and a lack of formal school support. Implementing a structured attendance recovery plan and enrolling the student in academic support services is projected to improve their grade performance.
 
 Recommended steps:
-- **Connect Student with School Support Resources** (Counselor): Identify and connect the student with appropriate school support programs, such as tutoring, academic counseling, or peer mentoring, to address specific learning needs and provide additional academic assistance.
-- **Implement Targeted Attendance Improvement Plan** (Teacher/Counselor): Collaborate with the student and their family to identify barriers to attendance and create a personalized plan to reduce absences, including strategies for motivation and addressing any underlying issues.
-- **Facilitate Family Engagement and Communication** (Counselor): Initiate communication with the student's family to discuss the importance of consistent attendance and school support, ensuring they are aware of available resources and can reinforce positive habits at home.
+- **Implement Attendance Recovery Plan** (Counselor): Establish a zero-absence goal for the next grading period and identify barriers preventing consistent attendance.
+- **Enroll in School Support Services** (Teacher): Formally register the student for academic tutoring or supplemental instruction to provide necessary scaffolding for course material.
+- **Parent-Teacher Coordination** (Counselor): Facilitate a meeting with the family to emphasize the correlation between attendance and academic success, ensuring home-based support.
 
-Monitoring: Monitor student attendance weekly and academic engagement bi-weekly. Follow up on the effectiveness of school support programs within two weeks of implementation.
+Monitoring: Review attendance logs and academic progress reports bi-weekly to ensure the student is meeting the new support requirements.
 
 ## student_0610
 
 Risk band: **high**
 
-This student is currently at high risk with a predicted grade of 5.98. The most impactful path to improvement involves providing dedicated school support and ensuring consistent internet access, which could raise the predicted grade to 7.20.
+The student is at high risk due to a lack of school support and limited internet access. Implementing school-based support and ensuring reliable internet connectivity is projected to improve the student's grade by over one point.
 
 Recommended steps:
-- **Implement School Support Program** (Counselor/Teacher): Connect the student with school-based academic support, such as tutoring, study groups, or a dedicated mentor, to address specific learning needs and provide structured assistance.
-- **Facilitate Internet Access** (Counselor/School Administration): Assess the student's home internet availability and, if lacking, explore solutions such as providing a mobile hotspot, connecting with community internet programs, or ensuring access to school computer labs/Wi-Fi outside of class hours.
-- **Establish Regular Academic Check-ins** (Teacher): Conduct weekly brief check-ins with the student to monitor academic progress, ensure engagement with support resources, and address any emerging challenges related to coursework or access.
+- **Enroll in Academic Support Program** (School Counselor): Formally enroll the student in existing school support services to provide structured academic guidance and tutoring.
+- **Facilitate Digital Access** (IT Department): Provide a school-issued hotspot or identify local community centers to ensure the student has consistent, reliable internet access for coursework.
 
-Monitoring: Monitor the student's participation in school support programs and confirmed internet access over the next 4-6 weeks, alongside tracking academic performance and attendance.
+Monitoring: Review academic progress and attendance bi-weekly to ensure the student is utilizing the new support resources effectively.
 
 ## student_0131
 
 Risk band: **high**
 
-The student is currently at high risk with a predicted grade of 6.14. The most impactful path to improvement involves significantly reducing absences and providing dedicated school support, which could raise the predicted grade to 7.68.
+The student is at high risk due to frequent absences and a lack of school-based support. By eliminating absences and enrolling the student in formal school support programs, the predicted grade can improve by over 1.5 points.
 
 Recommended steps:
-- **Initiate Attendance Intervention Protocol** (Counselor): Implement a proactive system to track and address student absences immediately, including direct communication with guardians to identify and resolve barriers to attendance.
-- **Establish Dedicated Academic Support** (Teacher): Assign a specific teacher or school staff member to provide regular academic check-ins, tutoring, and help with coursework to ensure the student receives consistent school support.
-- **Conduct Student-Centered Needs Assessment** (Counselor): Meet with the student to understand their perspective on attendance and academic challenges, identifying personal motivators and potential barriers to engagement and support.
+- **Enroll in Academic Support Program** (Counselor): Formally enroll the student in school-provided tutoring or academic intervention services to address the identified support gap.
+- **Implement Attendance Recovery Plan** (Attendance Officer): Establish a daily check-in protocol to identify barriers to attendance and ensure the student reaches zero unexcused absences.
+- **Parent-Teacher Coordination** (Teacher): Schedule a meeting with the family to emphasize the correlation between attendance and academic success, ensuring home support aligns with school goals.
 
-Monitoring: Monitor student attendance weekly and academic progress bi-weekly. Counselor to follow up on the effectiveness of academic support and student engagement monthly.
+Monitoring: Review attendance logs weekly and track progress in the academic support program bi-weekly to ensure the student remains on the projected improvement path.
 
 ## student_0557
 
 Risk band: **high**
 
-This student is currently at high risk with a predicted grade of 6.14, primarily driven by frequent absences and a lack of school support. The most effective path to improve their grade involves a dual focus on reducing absences and providing targeted academic assistance.
+The student is at high risk of academic failure, primarily driven by frequent absences and a lack of school-based support. Implementing targeted academic interventions and improving attendance consistency can improve the predicted grade by over one full point.
 
 Recommended steps:
-- **Implement Attendance Improvement Plan** (Counselor): Collaborate with the student and their family to identify the root causes of absences and develop a personalized plan to improve consistent school attendance. This may include setting attendance goals and exploring incentives.
-- **Connect to Academic Support Services** (Teacher): Refer the student to available school-based academic support programs, such as after-school tutoring, peer study groups, or dedicated extra help sessions with teachers, to address learning gaps and reinforce understanding.
-- **Establish Regular Family Communication** (Counselor): Initiate consistent communication with the student's family to discuss attendance, academic progress, and the benefits of school support. Encourage family involvement in promoting regular attendance and utilizing school resources.
+- **Enroll in Academic Support Services** (Counselor): Formally register the student for school-provided tutoring or academic intervention programs to address foundational gaps.
+- **Implement Attendance Recovery Plan** (Teacher): Establish a check-in system to monitor daily attendance and address barriers preventing the student from arriving at school.
+- **Parent-Teacher Coordination** (Counselor): Facilitate a meeting with the family to emphasize the correlation between attendance and academic performance, ensuring home support for school attendance.
 
-Monitoring: Monitor student attendance weekly and academic performance bi-weekly. Adjust support strategies based on observed improvements in attendance and engagement with school support.
+Monitoring: Review attendance logs and academic progress reports bi-weekly to ensure the student is attending sessions and utilizing school support resources.
 
 ## student_0237
 
 Risk band: **high**
 
-The student is currently at high risk with a predicted grade of 6.21. The most impactful path to improvement involves significantly reducing absences and ensuring robust school support, which could raise the predicted grade to 7.70.
+The student is at high risk of academic failure primarily due to frequent absences and a lack of school-based support. Implementing a structured attendance recovery program and enrolling the student in formal school support services is projected to improve their grade by approximately 1.4 points.
 
 Recommended steps:
-- **Initiate Attendance Intervention Plan** (Counselor): Contact parents/guardians to understand the root causes of the student's 9 absences and collaboratively develop a plan to improve consistent school presence. Explore potential barriers and offer resources.
-- **Provide Targeted Academic Support** (Teacher): Connect the student with school-based academic support, such as tutoring, after-school study sessions, or peer mentoring, to address any learning gaps and reinforce classroom material.
-- **Establish Regular Check-ins and Support** (Teacher): Implement daily or weekly brief check-ins with the student to monitor their understanding, offer immediate help, and provide encouragement, ensuring they feel supported and engaged in their studies.
+- **Implement Attendance Recovery Plan** (Attendance Officer): Establish a daily check-in protocol to reduce absences to zero and address underlying barriers to school attendance.
+- **Enroll in School Support Services** (School Counselor): Formally assign the student to academic tutoring or mentorship programs to provide the necessary school-based support.
 
-Monitoring: Monitor attendance weekly and academic progress bi-weekly. Schedule a follow-up meeting in 4 weeks to review the effectiveness of interventions and adjust the plan as necessary.
+Monitoring: Review attendance logs weekly and conduct a bi-weekly progress check with the student's teachers to ensure support services are effectively impacting academic performance.
 
 ## student_0284
 
 Risk band: **high**
 
-The student is currently at high risk with a predicted grade of 6.28. The most effective path to improvement involves increasing school support and participation in extracurricular activities, which could raise the predicted grade to 6.55.
+The student is at high risk of academic failure. Integrating the student into school support programs and extracurricular activities is the most effective path to improve performance and engagement.
 
 Recommended steps:
-- **Connect with Academic Support Programs** (Counselor): Identify and enroll the student in available school support programs, such as tutoring, study groups, or academic counseling, to address specific learning needs.
-- **Encourage Extracurricular Involvement** (Counselor/Teacher): Discuss the student's interests and help them explore and join at least one school-based extracurricular activity or club to foster engagement and a sense of belonging.
-- **Address Attendance Barriers** (Counselor/Teacher): Investigate the root causes of the student's absences and work with the student and family to implement strategies that improve consistent school attendance.
+- **Enroll in School Support Services** (Counselor): Formalize enrollment in academic tutoring or mentorship programs to provide the student with structured guidance.
+- **Facilitate Extracurricular Involvement** (Activities Coordinator): Identify and register the student for at least one school-based activity to foster belonging and improve attendance.
 
-Monitoring: Monitor student's engagement in support programs and activities weekly, and track attendance for any improvements. Schedule a follow-up meeting in 4 weeks to review progress.
+Monitoring: Review academic progress and attendance records bi-weekly to ensure the student is actively participating in the assigned support and activities.
 
 ## student_0413
 
 Risk band: **high**
 
-This student is currently at high risk with a predicted grade of 6.51. The most impactful path to improvement involves significantly reducing absences and providing dedicated school support, which could raise the predicted grade by over a full point.
+The student is at high risk due to excessive absences and a lack of school support services. Improving attendance and integrating formal academic support are critical to raising the predicted grade by over 1.2 points.
 
 Recommended steps:
-- **Address Chronic Absences** (Counselor/Teacher): Initiate a meeting with the student and guardians to understand the root causes of the 21 reported absences. Develop a personalized attendance improvement plan, setting clear goals and incentives for consistent presence.
-- **Implement School-Based Academic Support** (Counselor/Teacher): Connect the student with available school support resources, such as after-school tutoring, peer mentoring, or a dedicated academic coach. Ensure regular check-ins to monitor engagement and effectiveness of the support.
-- **Regular Check-ins and Progress Monitoring** (Teacher): Schedule weekly brief check-ins with the student to monitor attendance, academic progress, and overall well-being. Provide positive reinforcement for improved attendance and engagement with support services.
+- **Implement Attendance Recovery Plan** (Counselor): Conduct a meeting with the student and guardians to identify barriers to attendance and establish a strict zero-absence policy moving forward.
+- **Enroll in School Support Services** (School Administration): Formally assign the student to academic support programs or tutoring to address the gap in educational resources.
+- **Weekly Progress Check-ins** (Teacher): Schedule brief weekly meetings to monitor attendance trends and ensure the student is actively utilizing the newly assigned school support resources.
 
-Monitoring: Monitor student attendance daily and track engagement with school support programs weekly. Re-evaluate the intervention plan after one month based on attendance and academic progress.
+Monitoring: Review attendance logs and academic performance data bi-weekly to ensure the student remains on track with the intervention goals.
 
 ## student_0179
 
 Risk band: **high**
 
-The student is currently at high risk with a predicted grade of 6.61. The most impactful path to improvement involves significantly reducing absences and providing comprehensive school-based academic support.
+The student is at high risk due to frequent absences and a lack of school-based support. Implementing a structured attendance recovery plan combined with formal academic support is projected to improve the student's grade by over 1.2 points.
 
 Recommended steps:
-- **Initiate Attendance Improvement Plan** (Counselor/Homeroom Teacher): Contact the student's family to understand the root causes of absences and collaborate on strategies to improve consistent school attendance, setting clear expectations and support systems.
-- **Provide Tailored Academic Support** (Teacher/Counselor): Connect the student with school-based academic resources such as tutoring, study skills workshops, or dedicated teacher office hours to address specific learning gaps and build confidence.
-- **Evaluate Home Internet Access** (Counselor): Assess if lack of reliable internet access at home is impacting academic performance and explore school or community programs to provide necessary connectivity for homework and online resources.
+- **Enroll in Academic Support Program** (Counselor): Formally enroll the student in school-provided tutoring or academic intervention services to address foundational gaps.
+- **Attendance Intervention Plan** (Attendance Officer): Establish a daily check-in protocol to reduce absences and identify barriers preventing the student from attending school.
+- **Home-School Communication** (Teacher): Coordinate with the family to ensure they are aware of the new support services and emphasize the importance of consistent attendance.
 
-Monitoring: Monitor attendance weekly and track the student's engagement and progress in academic support programs. Schedule bi-weekly check-ins with the student and family to review attendance and academic performance.
+Monitoring: Review attendance logs and academic progress reports bi-weekly to ensure the student is utilizing school support and maintaining consistent attendance.
 
 ## student_0447
 
 Risk band: **high**
 
-This student is currently at high risk with a predicted grade of 6.68. The most impactful interventions involve significantly increasing dedicated study time and improving school attendance. Simulations show that by increasing study time from 1 to 4 hours per week and reducing absences from 8 to 0-2, the predicted grade could improve substantially to 8.23-8.44.
+The student is at high risk due to low study time and frequent absences. Increasing weekly study time to 4 hours and drastically reducing absenteeism is projected to improve the grade by over 1.5 points.
 
 Recommended steps:
-- **Establish a Structured Study Routine** (Counselor/Teacher): Collaborate with the student to create a realistic and consistent weekly study schedule, emphasizing dedicated time blocks for homework and review. Provide guidance on effective study techniques and time management.
-- **Implement Attendance Improvement Strategies** (Counselor/Parent/Guardian): Work with the student and their family to identify and address the root causes of absences. Develop a clear plan to improve consistent school attendance, which may include setting morning routines or addressing health-related barriers.
-- **Provide Targeted Academic Support** (Teacher): Offer additional academic support through extra help sessions, peer tutoring, or connecting the student with relevant learning resources to reinforce concepts and build confidence, which can motivate increased study time.
+- **Attendance Recovery Contract** (Counselor): Meet with the student and family to establish a formal attendance plan, identifying barriers to school arrival and setting a goal of zero unexcused absences.
+- **Structured Study Schedule** (Teacher): Collaborate with the student to create a weekly study calendar that allocates 4 hours of dedicated academic time, utilizing school resources or supervised study halls.
+- **Academic Progress Check-ins** (Teacher): Implement a bi-weekly check-in to review study logs and verify that the student is meeting the new attendance and study time targets.
 
-Monitoring: Monitor student attendance weekly and conduct bi-weekly check-ins on study schedule adherence and academic progress. Adjust interventions as needed based on observed improvements and challenges.
+Monitoring: Track attendance daily and review study logs every two weeks to ensure the student remains on the trajectory toward the 8.44 grade target.
 
 ## student_0569
 
 Risk band: **high**
 
-This student is currently at high risk with a predicted grade of 6.86. The most impactful path to improvement involves significantly reducing absences and providing dedicated school support, which could raise the predicted grade by over half a point.
+The student is at high risk due to frequent absences and a lack of school-based support. By eliminating absences and enrolling the student in formal school support programs, the predicted grade can be improved by over 0.6 points.
 
 Recommended steps:
-- **Investigate and Address Absences** (Counselor): Schedule a meeting with the student and guardians to understand the underlying reasons for the high number of absences (9) and collaboratively develop a plan to improve attendance.
-- **Implement School-Based Academic Support** (Teacher): Connect the student with available school support resources, such as after-school tutoring, peer mentoring, or dedicated academic assistance programs, to provide targeted help.
-- **Establish Regular Check-ins** (Teacher): Conduct brief, weekly check-ins with the student to monitor attendance, academic progress, and engagement with the provided school support.
+- **Implement Attendance Recovery Plan** (Counselor): Meet with the student and parents to address barriers to attendance and set a goal of zero unexcused absences.
+- **Enroll in School Support Services** (School Administration): Formally register the student for academic tutoring or mentorship programs to provide the necessary scaffolding for grade improvement.
 
-Monitoring: Monitor attendance records and academic performance weekly. Assess the student's engagement with school support and adjust interventions as necessary based on progress.
+Monitoring: Review attendance logs weekly and conduct bi-weekly check-ins with the student to assess the effectiveness of the support services.

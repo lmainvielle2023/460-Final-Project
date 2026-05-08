@@ -42,8 +42,8 @@ def prepare_model_frame(
             columns=[column for column in ("G1", "G2") if column in modeling_frame.columns]
         )
 
-    y = modeling_frame[target].copy()
-    x = modeling_frame.drop(columns=[target])
+    y = modeling_frame[target].copy() if target in modeling_frame.columns else None
+    x = modeling_frame.drop(columns=[target]) if target in modeling_frame.columns else modeling_frame
     return x, y
 
 

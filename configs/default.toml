@@ -3,7 +3,7 @@ name = "student-success-intervention"
 random_seed = 42
 
 [dataset]
-raw_dir = "data/raw"
+raw_dir = "data"
 subject = "por"
 target = "G3"
 include_prior_grades = false
