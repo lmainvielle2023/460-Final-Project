@@ -187,42 +187,66 @@ def run_simulation(config_path: str | Path) -> dict[str, Path]:
         .head(config.simulation.sample_size)
     )
 
-    planner = AgenticInterventionPlanner(score_fn=score_fn)
+    simulator = ScenarioSimulator(
+        score_fn=score_fn,
+        target_grade=config.simulation.target_grade,
+        top_k=config.simulation.top_k,
+        max_feature_changes=config.simulation.max_feature_changes,
+    )
+    planner = AgenticInterventionPlanner()
 
     scenario_rows: list[dict[str, Any]] = []
     plan_blocks: list[str] = []
 
     for _, student in at_risk.iterrows():
-        base_features = student.drop(labels=["student_id", "predicted_grade", config.dataset.target]).to_dict()
-        base_prediction = float(student["predicted_grade"])
-        student_id = str(student["student_id"])
-        
-        # Determine risk band
-        threshold = config.dataset.pass_threshold
-        risk_band = "high" if base_prediction < threshold - 2.0 else "medium"
-
-        plan = planner.build_plan(
-            student_id=student_id,
-            base_features=base_features,
-            base_prediction=base_prediction,
-            pass_threshold=threshold
+        scenarios = simulator.rank_scenarios(
+            student_row=student.drop(labels=["student_id", "predicted_grade"]),
+            base_prediction=float(student["predicted_grade"]),
         )
-        plan_blocks.append(_format_llm_plan_markdown(student_id, risk_band, plan))
-
-        scenario_rows.append(
-            {
-                "student_id": student_id,
-                "actual_grade": student[config.dataset.target],
-                "predicted_grade": base_prediction,
-                "risk_band": risk_band,
-                "scenario_rank": 1,
-                "scenario_predicted_grade": None,
-                "grade_delta": None,
-                "feasibility_score": None,
-                "meets_target": None,
-                "changes": "LLM agent dynamically generated scenarios.",
-            }
+        risk_factors = _risk_factors_from_scenarios(scenarios)
+        prediction = PredictionRecord(
+            student_id=str(student["student_id"]),
+            predicted_grade=float(student["predicted_grade"]),
+            risk_factors=risk_factors,
+            pass_threshold=config.dataset.pass_threshold,
         )
+        plan = planner.build_plan(prediction, scenarios)
+        plan_blocks.append(_format_llm_plan_markdown(prediction.student_id, prediction.risk_band, plan))
+
+        if not scenarios:
+            scenario_rows.append(
+                {
+                    "student_id": student["student_id"],
+                    "actual_grade": student[config.dataset.target],
+                    "predicted_grade": student["predicted_grade"],
+                    "risk_band": prediction.risk_band,
+                    "scenario_rank": None,
+                    "scenario_predicted_grade": None,
+                    "grade_delta": None,
+                    "meets_target": False,
+                    "changes": "",
+                }
+            )
+            continue
+
+        for rank, scenario in enumerate(scenarios, start=1):
+            scenario_rows.append(
+                {
+                    "student_id": student["student_id"],
+                    "actual_grade": student[config.dataset.target],
+                    "predicted_grade": student["predicted_grade"],
+                    "risk_band": prediction.risk_band,
+                    "scenario_rank": rank,
+                    "scenario_predicted_grade": scenario.predicted_grade,
+                    "grade_delta": scenario.grade_delta,
+                    "feasibility_score": scenario.feasibility_score,
+                    "meets_target": scenario.meets_target,
+                    "changes": "; ".join(
+                        f"{change.feature}: {change.old_value} -> {change.new_value}"
+                        for change in scenario.changes
+                    ),
+                }
+            )
 
     scenario_summary = pd.DataFrame(scenario_rows)
     reports_dir = Path(config.outputs.reports_dir)
