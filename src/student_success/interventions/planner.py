@@ -34,7 +34,7 @@ def build_agent_prompt(
         "Return: summary, 2-4 actions, and a short monitoring plan."
     )
 
-
+"""Old class, replaced with the AI agent planner"""
 class RuleBasedInterventionPlanner:
     """Turn predictions and scenario simulations into a short support plan."""
 

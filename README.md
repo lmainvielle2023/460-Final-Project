@@ -12,13 +12,6 @@ This project provides an end-to-end machine learning pipeline that acts as an **
 3. **Actionable Scenario Simulation**: Calculates how feasible changes to actionable variables (e.g., increasing study time, reducing absences, accessing school support) shift a student's predicted outcome.
 4. **Intervention Planning**: Translates the top simulated scenarios and risk factors into concise, educator-facing support plans using a rule-based planner and prompt chain.
 
-## What Has Been Done (Current Status)
-
-All initial project goals and immediate priorities have been fully executed:
-- The UCI Student Performance dataset has been successfully integrated.
-- Baseline and ablation experiments have been run (comparing models with/without prior grades and with/without interaction features).
-- The scenario simulator generated top-k feasible interventions for at-risk students, and the rule-based planner synthesized these results into concrete support plans for educators.
-- **Results and Artifacts**: All final metrics, feature importances, ablation summaries, and generated intervention plans have been created and reside in the `reports/` directory.
 
 ## File Structure & Where Things Live
 
@@ -57,7 +50,6 @@ The project is built as a Python package. The main entry point is the `student-s
    ```bash
    export GEMINI_API_KEY="your_actual_api_key_here"
    ```
-   *(Note: You can also use `GOOGLE_API_KEY` depending on your environment).*
 
 4. **Run the Full Pipeline**: Execute the entire pipeline to train models, run ablation studies, simulate scenarios, and generate intervention plans.
    ```bash
@@ -66,3 +58,6 @@ The project is built as a Python package. The main entry point is the `student-s
    This command runs everything sequentially. Once finished, all final artifacts will be placed in the `reports/` folder.
 
 If you just want to run specific segments of the pipeline, such as `train`, `run-experiments`, or `simulate`, you can use those subcommands instead. Run `student-success --help` for details.
+
+## AI usage acknowledgement
+For this project Gemini and Codex were used to establish the project structure (the folder organization) as well as the pipelining and connecting of all the different parts (allowing a user to simply run one command and having the whole pipeline auto run). 
