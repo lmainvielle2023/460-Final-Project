@@ -63,4 +63,4 @@ IMPORTANT NOTE: STEPS MAY BE SLIGHTLY DIFFERENT FOR WINDOWS
 If you just want to run specific segments of the pipeline, such as `train`, `run-experiments`, or `simulate`, you can use those subcommands instead. Run `student-success --help` for details.
 
 ## AI usage acknowledgement
-For this project Gemini and Codex were used to establish the project structure (the folder organization) as well as the pipelining and connecting of all the different parts (allowing a user to simply run one command and having the whole pipeline auto run). 
+For this project Gemini and Codex were used to establish the project structure (the folder organization) as well as the pipelining and connecting of all the different parts (allowing a user to simply run one command and having the whole pipeline auto run). Additionally AI was extremely helpful in creating the outputs of the program including the graphs we generate and the "reports".
