@@ -36,6 +36,9 @@ This project provides an end-to-end machine learning pipeline that acts as an **
 
 The project is built as a Python package. The main entry point is the `student-success` CLI.
 
+IMPORTANT NOTE: STEPS MAY BE SLIGHTLY DIFFERENT FOR WINDOWS
+(for setting API key use "conda env config vars set" instead of "export")
+
 1. **Install Dependencies**: First, install the required packages using `pip`.
    ```bash
    pip install -e .
